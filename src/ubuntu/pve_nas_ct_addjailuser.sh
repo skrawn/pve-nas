@@ -173,6 +173,8 @@ then
   fi
   echo
 
+  echo "pre_check_01=$pre_check_01, pre_check_02=$pre_check_02, pre_check_03=$pre_check_03, pre_check_04=$pre_check_04, pre_check_05=$pre_check_05"
+
   # Check Results
   msg "Prerequisites check status..."
   if [ "$pre_check_01" = 0 ] && [ "$pre_check_02" = 0 ] && [ "$pre_check_03" = 0 ] && [ "$pre_check_04" = 0 ] && [ "$pre_check_05" = 0 ]
