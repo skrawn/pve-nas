@@ -185,7 +185,7 @@ then
     pre_check_install=0
     warn "User intervention required.\nYou can enable SSHD in the next steps.\n Proceeding with installation."
     echo
-  elif [ "$pre_check_01 "= 1 ] || [ "$pre_check_01" = 0 ] && [ $pre_check_02 = 1 ] && [ "$pre_check_03" = 0 ] || [ "$pre_check_03" = 1 ] && [ "$pre_check_04" = 0 ] && [ "$pre_check_05" = 0 ]
+  elif [ "$pre_check_01 " = 1 ] || [ "$pre_check_01" = 0 ] && [ $pre_check_02 = 1 ] && [ "$pre_check_03" = 0 ] || [ "$pre_check_03" = 1 ] && [ "$pre_check_04" = 0 ] && [ "$pre_check_05" = 0 ]
   then
     pre_check_install=1
     warn "User intervention required. Missing chrootjail user group.\nExiting installation script in 3 second."
